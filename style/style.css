@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+:root {
+  --cor-verde-vibrante: #06B41B;
+  --cor-marrom-terroso: #964B00;
+  --cor-amarelo-mostarda: #FFDB58;
+  /* Opcional */
+  --cor-laranja-queimado: #D95319;
+  /* Opcional */
+  --cor-azul-celeste: #77B5FE;
+  /* Opcional */
+  --cor-vermelho-tijolo: #B22222;
+  /* Opcional */
+}
+
+/* .poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+} */
+
+header,
+footer {
+  background-color: var(--cor-verde-vibrante);
+}
+
+header {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin-top: 80px;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none; 
+  color: white; 
+}
+
+nav a:hover{
+  color: var(--cor-laranja-queimado);
+}
+
+main {
+  min-height: 500px;
+}
+
+.hero {
+  margin-top: 100px;
+}
+
+.hero-content {
+  text-align: center;
+}
+
+.artigos-container {
+  display: flex;
+  flex-wrap: wrap; /* Permite que os artigos quebrem a linha */
+}
+
+.artigos-container article {
+  width: 350px;
+  margin: 20px;
+  padding: 10px;
+  border:solid 2px #964B00;
+}
+
+.artigos-container img {
+  width: 350px;
+  height: 200px;
+}
+
+.botao-ver-todos {
+  align-self: flex-end; /* Alinha o botão ao final do container */
+  margin-top: 20px; /* Adiciona um espaçamento superior */
+}
+
+footer {
+  display: flex; /* Ativa o Flexbox no footer */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  min-height: 100px; /* Garante altura mínima para o footer */
+}
