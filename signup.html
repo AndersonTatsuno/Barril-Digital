@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Barril Digital - Artigos</title>
+  <title>Barril Digital - Home</title>
   <link rel="stylesheet" href="style/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,21 +19,35 @@
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="articles.html">Artigos</a></li>
+        <li><a href="blog.html">Blog</a></li>
         <li><a href="courses.html">Cursos</a></li>
         <li><a href="about.html">Sobre</a></li>
+        <li><a href="signup.html">Cadastro</a></li>
+        <li><a href="login.html">Login</a></li>
       </ul>
     </nav>
   </header>
-  <main>
-    <h3>Artigos</h3>
+  <main class="cadastro-container">
+    
+      <form>
+        <h2>Cadastro:</h2>
+        <label for="">Nome completo:</label>
+        <input type="text" placeholder="Nome completo">
+        <label for="">E-mail</label>
+        <input type="email" placeholder="nome@email.com">
+        <label for="">Senha</label>
+        <input type="password" name="senha" id="senha" placeholder="Senha">
+        <label for="">Confirmar senha</label>
+        <input type="password" name="verifica-senha" id="verifica-senha" placeholder="Confirma senha">
+        <button type="submit">Cadastrar</button>
+      </form>
+    
   </main>
-
   <footer>
     <div class="footer-container">
       <p>Todos os direitos reservados - 2024</p>
     </div>
   </footer>
-    
 </body>
+
 </html>
