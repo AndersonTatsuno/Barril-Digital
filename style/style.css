@@ -72,34 +72,108 @@ main {
   text-align: center;
 }
 
-.artigos-container {
+.posts-container {
   display: flex;
   flex-wrap: wrap; /* Permite que os artigos quebrem a linha */
 }
 
-.ultimos-artigos {
+.ultimos-posts {
   margin-top: 80px;
 }
 
-.ultimos-artigos h2{
+.ultimos-posts h2{
   margin-left: 20px;
 }
 
-.artigos-container article {
+.posts-container article {
   width: 350px;
   margin: 20px;
   padding: 10px;
   border:solid 2px #964B00;
 }
 
-.artigos-container img {
+.posts-container img {
   width: 350px;
   height: 200px;
 }
 
-.botao-ver-todos {
+.todos-posts {
   align-self: flex-end;
   margin-top: 20px;
+}
+
+/* Blog */
+
+.blog-container {
+  display: flex;
+}
+
+.blog {
+  width: 70%;
+  float: left;
+}
+
+.sidebar {
+  width: 30%;
+  float: right;
+  border-left:solid 2px #964B00;
+}
+
+.blog-main h2 {
+  margin: 10px 0 20px 10px;
+}
+
+/* Cursos */
+
+.cursos-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cursos-container article{
+  width: 350px;
+  margin: 20px;
+  padding: 10px;
+  border:solid 2px #964B00;
+}
+
+.cursos-container img{
+  width: 350px;
+  height: 200px;
+}
+
+/* Cadastro */
+main.cadastro-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cadastro-container form {
+  display: grid;
+  width: 300px;
+  height: 400px;
+  border: solid 1px #964B00;
+  padding: 10px;
+}
+
+/* Login */
+main.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container form{
+  display: grid;
+  width: 300px;
+  height: 300px;
+  border: solid 1px #964B00;
+  padding: 10px;
+}
+
+.login-esqueceu-senha-cadastro {
+  display: inline;
 }
 
 footer {
